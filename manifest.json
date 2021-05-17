@@ -1,7 +1,7 @@
 {
     "name": "covid_resources",
     "short_name": "covid_resources",
-    "start_url": ".",
+    "start_url": "./covid_resources",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
