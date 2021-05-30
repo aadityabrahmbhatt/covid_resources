@@ -1,10 +1,10 @@
-var apiKey = "AIzaSyBHGPPUYCC5_UwkdqX4bB9dPdqzCufYN54";
-var authDomain = "cowar-github.firebaseapp.com";
-var projectId = "cowar-github";
-var storageBucket = "cowar-github.appspot.com";
-var messagingSenderId = "710448594827";
-var appId = "1:710448594827:web:2b213f4de723eeff04b98e";
-var measurementId = "G-XNTYSR7J0X";
+var apiKey = ${{ secrets.FIREBASE_API_KEY }};
+var authDomain = ${{ secrets.FIREBASE_AUTH_DOMAIN }};
+var projectId = ${{ secrets.FIREBASE_PROJECT_ID }};
+var storageBucket = ${{ secrets.FIREBASE_STORAGE_BUCKET }};
+var messagingSenderId = ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }};
+var appId = ${{ secrets.FIREBASE_APP_ID }};
+var measurementId = ${{ secrets.FIREBASE_MEASUREMENT_ID }};
 
 export var firebaseConfig = {
                  apiKey: apiKey,
